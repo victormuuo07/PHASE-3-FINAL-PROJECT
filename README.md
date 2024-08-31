@@ -97,8 +97,6 @@ Multiple models were trained and evaluated to predict customer churn. The Random
 
 The ROC curve for the best-performing model, the Stacking Ensemble, is shown below.
 
-![ROC Curve](images/roc_curve.png)
-*Figure 4: ROC Curve for Stacking Ensemble Model*
 
 ## Evaluation
 
@@ -111,8 +109,7 @@ A comparison of ROC curves for different models illustrates their performance in
 
 The analysis indicates that customer service calls and total day minutes are significant predictors of churn. Based on these insights, targeted retention strategies can be developed.
 
-![Final Feature Importance](images/final_feature_importance.png)
-*Figure 6: Final Feature Importance Summary*
+
 
 ## Recommendations
 
