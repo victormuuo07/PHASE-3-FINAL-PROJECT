@@ -110,10 +110,3 @@ A comparison of ROC curves for different models illustrates their performance in
 The analysis indicates that customer service calls and total day minutes are significant predictors of churn. Based on these insights, targeted retention strategies can be developed.
 
 
-
-## Recommendations
-
-1. **Customer Service Improvement:** Focus on improving the quality of customer service, as frequent calls to customer service strongly predict churn.
-2. **Targeted Retention Programs:** Develop targeted retention programs for customers with high day-time usage to prevent potential churn.
-3. **Continuous Monitoring:** Regularly monitor these key indicators to proactively identify at-risk customers.
-
