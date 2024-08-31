@@ -2,7 +2,7 @@
 
 ## **Overview**
 
-This project focuses on analyzing customer churn for SyriaTel, a telecommunications company, to identify key factors that contribute to customer attrition and develop predictive models to help the company retain its customers. The analysis aims to provide actionable insights and recommendations that SyriaTel can implement to improve customer retention and overall profitability.
+The SyriaTel Customer Churn project aims to address the high rate of customer attrition within the telecommunications sector. Leveraging customer data such as service plans, call activity, and account details, we will build robust classification models to predict whether a customer is likely to churn. By understanding these patterns, SyriaTel can proactively enhance customer retention strategies, improve customer satisfaction, and reduce financial losses.
 
 ## **Business and Data Understanding**  
 
