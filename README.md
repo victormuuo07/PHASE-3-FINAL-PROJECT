@@ -17,15 +17,24 @@ The primary stakeholders for this project include:
 
 We used a telecommunications dataset that includes customer demographics, service usage, and billing information. This dataset is ideal for modeling churn because it captures relevant customer behaviors and service interactions that are indicative of churn risk.   
 
-### **Key Features in the Dataset:**
+### **Key Features in the Dataset:**  
 
-Account Length
-Area Code
-Number Vmail Messages
-Total Day Minutes
-Total Eve Minutes
-Total Night Minutes
-Customer Service Calls
-International Plan
-Voice Mail Plan
+* Account Length  
+* Area Code  
+* Number Vmail Messages  
+* Total Day Minutes  
+* Total Eve Minutes  
+* Total Night Minutes  
+* Customer Service Calls  
+* International Plan  
+* Voice Mail Plan  
+
+## **Modelling**  
+
+We explored several models to predict customer churn:  
+
+* Logistic Regression: Established as the baseline model due to its simplicity and interpretability.  
+* Decision Tree Classifier: Captured non-linear relationships and provided insights into the most important features.  
+* Random Forest Classifier: Improved accuracy by reducing overfitting compared to the decision tree.  
+* Stacking Ensemble Model: Combined the strengths of multiple models to achieve the best performance.  
 
