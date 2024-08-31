@@ -56,7 +56,19 @@ Best Model: The Stacking Ensemble Model achieved the highest performance with an
 ## **Conclusion**  
 ### **Findings**  
 
-**Key Determinants of Churn:** The analysis revealed that customer service calls and international plan were the most significant factors influencing churn. Frequent calls to customer service indicated dissatisfaction, while having an international plan correlated with lower churn rates.  
-**Model Performance:** The stacking ensemble model outperformed individual models, demonstrating the value of combining multiple algorithms for better prediction accuracy.   
+* **Key Determinants of Churn:** The analysis revealed that customer service calls and international plan were the most significant factors influencing churn. Frequent calls to customer service indicated dissatisfaction, while having an international plan correlated with lower churn rates.  
+* **Model Performance:** The stacking ensemble model outperformed individual models, demonstrating the value of combining multiple algorithms for better prediction accuracy.   
+
+### **Implications**  
+
+* Customer Service: SyriaTel should focus on improving customer service quality as frequent service interactions are linked to higher churn.  
+* Targeted Marketing: Offering international plans or enhancing existing ones could be an effective retention strategy for at-risk customers.  
+
+## **Recommendations** 
+
+* **Enhance Customer Service:** Implement training programs for customer service representatives to reduce negative interactions that lead to churn.
+* **Promote International Plans:** Increase marketing efforts around international plans to retain customers who are likely to leave.
+* **Monitor High-Risk Customers:** Develop a monitoring system for customers who frequently contact customer service, allowing for proactive engagement before they churn.
+* **Continuous Model Improvement:** Regularly update the model with new data to ensure it remains accurate over time and adapts to changing customer behaviors.
 
 
