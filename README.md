@@ -66,9 +66,57 @@ Best Model: The Stacking Ensemble Model achieved the highest performance with an
 
 ## **Recommendations** 
 
-* **Enhance Customer Service:** Implement training programs for customer service representatives to reduce negative interactions that lead to churn.
-* **Promote International Plans:** Increase marketing efforts around international plans to retain customers who are likely to leave.
-* **Monitor High-Risk Customers:** Develop a monitoring system for customers who frequently contact customer service, allowing for proactive engagement before they churn.
-* **Continuous Model Improvement:** Regularly update the model with new data to ensure it remains accurate over time and adapts to changing customer behaviors.
+* **Enhance Customer Service:** Implement training programs for customer service representatives to reduce negative interactions that lead to churn.  
+* **Promote International Plans:** Increase marketing efforts around international plans to retain customers who are likely to leave.  
+* **Monitor High-Risk Customers:** Develop a monitoring system for customers who frequently contact customer service, allowing for proactive engagement before they churn.  
+* **Continuous Model Improvement:** Regularly update the model with new data to ensure it remains accurate over time and adapts to changing customer behaviors.  
 
+
+# **Visualization**
+
+## Overview
+
+This project focuses on predicting customer churn for SyriaTel using a combination of classification models, including Decision Trees, Random Forests, and a Stacking Ensemble model. Understanding the factors that influence customer churn is critical for developing effective retention strategies.
+
+![Churn Distribution](images/churn_distribution.png)
+*Figure 1: Distribution of Churn vs. Non-Churn Customers*
+
+## Business and Data Understanding
+
+The dataset contains features such as account length, total day minutes, customer service calls, and more. A correlation heatmap provides insights into the relationships between these features.
+
+![Correlation Heatmap](images/correlation_heatmap.png)
+*Figure 2: Correlation Heatmap of Features*
+
+## Modeling
+
+Multiple models were trained and evaluated to predict customer churn. The Random Forest model's feature importance highlights which factors are most influential in predicting churn.
+
+![Feature Importance](images/feature_importance.png)
+*Figure 3: Feature Importance from Random Forest Model*
+
+The ROC curve for the best-performing model, the Stacking Ensemble, is shown below.
+
+![ROC Curve](images/roc_curve.png)
+*Figure 4: ROC Curve for Stacking Ensemble Model*
+
+## Evaluation
+
+A comparison of ROC curves for different models illustrates their performance in predicting customer churn.
+
+![Model Comparison](images/model_comparison.png)
+*Figure 5: Comparison of ROC Curves for Different Models*
+
+## Conclusion
+
+The analysis indicates that customer service calls and total day minutes are significant predictors of churn. Based on these insights, targeted retention strategies can be developed.
+
+![Final Feature Importance](images/final_feature_importance.png)
+*Figure 6: Final Feature Importance Summary*
+
+## Recommendations
+
+1. **Customer Service Improvement:** Focus on improving the quality of customer service, as frequent calls to customer service strongly predict churn.
+2. **Targeted Retention Programs:** Develop targeted retention programs for customers with high day-time usage to prevent potential churn.
+3. **Continuous Monitoring:** Regularly monitor these key indicators to proactively identify at-risk customers.
 
